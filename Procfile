@@ -1,1 +1,1 @@
-web: gunicorn efs_rest.wsgi --timeout 15 --keep-alive 5 --log-level debug
+web: gunicorn efs_rest.wsgi --log-file -
